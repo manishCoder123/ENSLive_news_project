@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(230, 230, 230, 1) 0%,
+            rgba(255, 255, 255, 1) 51%, rgba(230, 230, 230, 1) 100%);
+    font-family: Poppins, sans-serif;
+    /* background: #ffffff; */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+div#logo {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 0;
+}
+
+.today-date {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Fira Sans';
+    font-weight: 800;
+    font-size: 15px;
+    justify-content: flex-end;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-img {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.logo-img img {
+    width: 200px;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+#ads_img_ttt {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.navbar-nav {
+    margin-right: auto;
+}
+
+
+
+/* Breaking News Section */
+marquee#marquee_lay {
+    margin-top: 14px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+
+/* Main Section */
+
+/* Set height for the sections */
+.section-main {
+    position: relative;
+    background-color: #ffffff;
+}
+
+/* Vertical line style */
+.vertical-line {
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color: #000;
+    /* You can change the color */
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/* Custom CSS for image aspect ratio */
+#dynamicCarousel .carousel-inner img {
+    height: 250px;
+    object-position: center;
+}
+
+#dynamicCarousel {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-item {
+    height: 350px;
+}
+
+.carousel-item h4 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+/* Card Section*/
+.card-section {
+    margin-top: 20px;
+}
+
+.card {
+    border: none !important;
+}
+
+.card-div {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+}
+
+.card-div .cardImg img {
+    width: 120px;
+    height: 100px;
+}
+
+/* .card>hr {
+    margin-right: auto !important;
+    margin-left: auto !important;
+} */
+
+.horizontal-line {
+    width: 100%;
+    height: 1px;
+    background-color: #f5f3f3;
+    /* Adjust color as needed */
+    margin: 10px auto;
+    /* Adjust margin as needed */
+    border-top: none;
+}
+
+/* .cardTitle{
+    max-height: 3em; 
+    overflow: hidden;
+} */
+
+.cardTitle p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+/* .full-title {card
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+
+/*Span Section*/
+.card-span {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    width: 100%;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* .card-span .label {
+    display: flex;
+    align-items: center;
+    color: #848484;
+    font-weight: 500;
+} */
+
+.card-span span {
+    padding-right: 10px;
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+.bookmark-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #848484;
+    font-size: 16px;
+}
+
+/* .news_edition_div span {
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-weight: 500;
+} */
+
+/*Previous and Next Button CSS*/
+.carousel-control-next,
+.carousel-control-prev {
+    bottom: 95px !important;
+}
+
+
+/* Left Section CSS*/
+.left_heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    color: #000;
+}
+
+.left_Card_div {
+    display: flex;
+}
+
+.left_Card_div .hash {
+    font-size: 20px;
+    color: #da251d;
+    content: "#";
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.left_Card_div p {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.left_card_label {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.edition{
+    color: red;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+/* Left Section CSS*/
+
+
+/*Category Section*/
+.category{
+    margin-top: 20px;
+}
+.card-container img{
+    height: 200px;
+    width: 100%;
+}
+
+
+/*Category Section*/
